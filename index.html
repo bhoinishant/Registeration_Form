@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registeration form</title>
+</head>
+<body>
+<h1>REGISTERATION FORM FOR SOMETHING</h1>
+<form action="POST" action="index.php">
+	<fieldset>
+		<legend>Personal details</legend>
+	<label>NAME</label><br>
+	<input type="text" name="name" required>
+	<br><br>
+
+		<label>EMAIL</label><br>
+	<input type="email" name="email">
+	<br><br>
+
+		<label>PASSWORD</label><br>
+	<input type="password" name="password">
+	<br><br>
+</fieldset>
+<br>
+<br>
+
+<fieldset>
+	<legend>User information</legend>
+	<label>LOCATION</label>
+	<select name="location">
+	<option value="select" selected>SELECT</option>	
+	<option value="sbp">SAMBALPUR</option>	
+	<option value="bgh">BARGARH</option>	
+	<option value="bbsr">BHUBNESWAR</option>	
+	</select>
+	<br><br>
+
+	<label>GENDER ::</label>
+	<input type="radio" name="GENDER" value="Male">MALE
+	<input type="radio" name="GENDER" value="Female">FEMALE
+	<input type="radio" name="GENDER" value="Others">OTHERS
+	<br><br>
+	<label>INTERESTS::</label>
+	<input type="checkbox" name="interests" value="Movie">MOVIES
+	<input type="checkbox" name="interests" value="Music">MUSIC
+	<input type="checkbox" name="interests" value="Sports">SPORTS
+	<input type="checkbox" name="interests" value="Art">ART
+	<input type="checkbox" name="interests" value="Others">OTHERS
+	<br><br>
+</fieldset>
+<br>
+<br>
+	<input type="submit" name="Submit">
+</form>
+</body>
+</html>
